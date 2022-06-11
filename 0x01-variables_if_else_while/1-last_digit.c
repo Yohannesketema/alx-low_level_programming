@@ -2,9 +2,10 @@
 #include <stdlib.h>
 #include <time.h>
 /**
-* main - checks & print the last digit 
-* Return: 0
-*/
+ * main - checks tnd print the last digit
+ *
+ * Return: 0
+ */
 
 int main(void)
 {
