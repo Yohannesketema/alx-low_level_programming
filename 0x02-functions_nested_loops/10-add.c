@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 /**
  * add - takes two number and add them together
  * @a: firs integer variable
