@@ -9,9 +9,9 @@ void print_rev(char *s)
 
 	while (s[index++])
 		length++;
-	for (index = length - 1; index != -1; index--)
+	for (index = length - 1; index >= 0; index--)
 	{
-		printf("%c", s[index]);
+		putchar(s[index]);
 	}
 	printf("\n");
 }
