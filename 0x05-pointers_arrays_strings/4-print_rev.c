@@ -5,8 +5,8 @@
  */
 void print_rev(char *s)
 {
-	while (*str)
+	while (*s)
 	{
-		printf("%c", *str--);
+		printf("%c", *s--);
 	}
 	printf("\n");
