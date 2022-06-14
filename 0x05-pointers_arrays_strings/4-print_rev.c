@@ -5,9 +5,13 @@
  */
 void print_rev(char *s)
 {
-	while (*s)
+	int length = 0, index;
+
+	while (s[index++])
+		length++;
+	for (index = length - 1; index >= 0; index--)
 	{
-		printf("%c", *s--);
+		printf("%c", s[index]);
 	}
 	printf("\n");
 }
