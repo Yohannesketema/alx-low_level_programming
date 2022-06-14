@@ -6,8 +6,8 @@
  */
 void puts2(char *str)
 {
-	int i;
+	int i, len = strlen(str);
 
-	for (i = 0; i < strlen(str); i++)
+	for (i = 0; i < len; i++)
 		printf("%c\n", str[i]);
 }
