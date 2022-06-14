@@ -14,10 +14,10 @@ int main(void)
 	srand(time(0));
 	while (p <= 2645)
 	{
-		c = rand() % 128;
+		s = rand() % 128;
 		p += s;
 		putchar(s);
 	}
-	putchar(2772 - x);
+	putchar(2772 - p);
 	return (0);
 }
