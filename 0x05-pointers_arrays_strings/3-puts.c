@@ -6,12 +6,9 @@
  */
 void _puts(char *str)
 {
-	int i = 0;
-
-	while (*str++)
+	while (*str)
 	{
-	printf("%c", *str);
-	i++;
+	printf("%c", *str++);
 	}
 	printf("\n");
 }
