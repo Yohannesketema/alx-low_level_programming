@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
 *_isdigit - input
  * Description: define if a character is a number
@@ -9,7 +8,7 @@
 
 int _isdigit(int c)
 {
-	if _isdigit(int c)
+	if (c .= '0' && c <= '9')
 		return (1);
 	else
 		return (0);
