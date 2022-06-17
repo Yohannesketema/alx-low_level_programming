@@ -1,4 +1,4 @@
-#inckude "main.h"
+#include "main.h"
 /**
  * print_line - print line
  * @n: length of the line
