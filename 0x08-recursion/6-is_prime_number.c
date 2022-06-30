@@ -1,11 +1,11 @@
 #include "main.h"
 int sumdigit(int n);
 /**
- * _is_prime_number - checks if the number is prime or not
+ * is_prime_number - checks if the number is prime or not
  * @n: the number to be checked
  * Return: 1 if the input is prime or 0 if the input is not prime
  */
-int _is_prime_number(int n)
+int is_prime_number(int n)
 {
 	if (n % 10 == 0 || n % 10 == 2 || n % 10 == 4 || n % 10 == 6 || n % 10 == 8 || sumdigit(n) / 3 == 0 || n % 10 == 5)
 		return (0);
