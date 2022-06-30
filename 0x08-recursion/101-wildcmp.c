@@ -22,7 +22,7 @@ int wildcmp(char *s1, char *s2)
 	return (wildcmp(++s1, ++s2));
 }
 /**
- * strlen - returns the length of the string while ignoring wild cards
+ * strlen_wild - returns the length of the string while ignoring wild cards
  * @str: string value
  * Return: string length
  */
